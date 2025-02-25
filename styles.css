@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #dc3545, #900);
+}
+
+/* Section Spacing */
+section {
+    padding: 50px 0;
+}
+
+/* Profile Image */
+#about img {
+    border: 5px solid #ddd;
+}
+
+/* Skills Progress Bar */
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+.progress-bar {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Projects */
+#projects .col-md-3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Contact Form */
+form .form-control {
+    border-radius: 5px;
+}
+form button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
